@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Playwright MCP",
+    "description": "来自 Playwright MCP 服务器（npx @playwright/mcp）的浏览器自动化工具，以 mcp__playwright__* 形式暴露。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Playwright MCP",
+    "description": "Browser automation tools from the Playwright MCP server (npx @playwright/mcp), exposed as mcp__playwright__* tools."
+  }
+}

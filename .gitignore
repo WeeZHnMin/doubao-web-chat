@@ -1,0 +1,22 @@
+# 账号 cookies / 登录态
+doubao_identity.json
+browser_profile/
+
+# ===== 设备相关（每台设备不同，由 setup_login.py 重新生成）=====
+fingerprint_template.json
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# ===== 参考工程（自带 .git，不随本仓库提交）=====
+A-Bogus-Reverse/
+
+# ===== 其它临时文件 =====
+*.log
+.DS_Store
+Thumbs.db
