@@ -49,7 +49,6 @@
 │   └── test_e2e.py             单轮端到端验收
 │
 ├── 【文档】
-│   ├── capture-chat-completion.md     /chat/completion 协议参考
 │   └── mssdk-msToken-mechanism.md     mssdk/msToken 逆向机制
 │
 ├── 【辅助工具（设备指纹失效时重抓）】
@@ -185,7 +184,7 @@ python test_e2e.py            # 单轮端到端
 - **strData** = `base64_s1('A' + key + RC4(key, JSON(设备指纹)))`，key 为 1 字节随机数，RC4 为标准 RC4
 - **版本号解析**用 JS `~~`（ToNumber）：`~~'20-alpha'` = 0（不是 parseInt 的 20）
 
-详细机制见 `mssdk-msToken-mechanism.md` 和 `capture-chat-completion.md`。
+详细机制见 `mssdk-msToken-mechanism.md`。
 
 ---
 

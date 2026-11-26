@@ -16,6 +16,12 @@ venv/
 # ===== 参考工程（自带 .git，不随本仓库提交）=====
 A-Bogus-Reverse/
 
+# ===== 工具自动快照（含登录态页面、会话 ID，禁止提交）=====
+.playwright-mcp/
+
+# ===== 本地分析笔记（不随仓库提交/公开）=====
+/capture-chat-completion.md
+
 # ===== 其它临时文件 =====
 *.log
 .DS_Store
